@@ -3,7 +3,7 @@ name = "my_project"
 version = "0.1.0"
 
 [tool.poetry.dependencies]
-python = "^3.13.2"
+python = "^3.13"
 colorama = "^0.4.6"
 
 [build-system]
