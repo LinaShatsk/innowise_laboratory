@@ -15,7 +15,6 @@ birth_year_str = input("Enter your birth year: ")
 birth_year = int(birth_year_str)
 current_age = 2025-birth_year
 stage = generate_profile(current_age)
-future_age = current_age + 25
 
 
 hobbies = []
@@ -32,10 +31,9 @@ user_profile = {
     'current_age': current_age,
     'stage': stage,
     'hobbies': hobbies,
-    'future_age': future_age
 }
 
-print(f"\n---\nProfile Summary:")
+print("\n---\nProfile Summary:")
 print(f"Name: {user_profile['user_name']}")
 print(f"Age: {user_profile['current_age']}")
 print(f"Life Stage: {user_profile['stage']}")
@@ -46,5 +44,3 @@ if user_profile['hobbies']:
         print(f"- {user_hobby}")
 else:
     print("You didn't mention any hobbies")
-
-print(f"Future Age: {user_profile['future_age']}\n---")
