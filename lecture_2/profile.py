@@ -27,15 +27,15 @@ while (True):
 
 
 user_profile = {
-    'user_name': user_name,
-    'current_age': current_age,
+    'name': user_name,
+    'age': current_age,
     'stage': stage,
     'hobbies': hobbies,
 }
 
 print("\n---\nProfile Summary:")
-print(f"Name: {user_profile['user_name']}")
-print(f"Age: {user_profile['current_age']}")
+print(f"Name: {user_profile['name']}")
+print(f"Age: {user_profile['age']}")
 print(f"Life Stage: {user_profile['stage']}")
 
 if user_profile['hobbies']:
