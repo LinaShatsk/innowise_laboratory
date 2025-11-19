@@ -43,4 +43,4 @@ if user_profile['hobbies']:
     for user_hobby in user_profile['hobbies']:
         print(f"- {user_hobby}")
 else:
-    print("You didn't mention any hobbies")
+    print("You didn't mention any hobbies\n---")
